@@ -28,7 +28,7 @@
 
 # Who to use 
 ```lua
--- the image nui::// location
+-- the image nui:// location
 local image = exports['mh-vehicleimages']:GetImage(vehicle_model)
 -- for html menu's
 local html = "<img src = '"..image.."' style = 'width: 80px;'>"
