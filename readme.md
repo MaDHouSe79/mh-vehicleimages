@@ -28,8 +28,10 @@
 
 # Who to use 
 ```lua
-local imageLocation = exports['mh-vehicleimages']:GetImage(model)
-local html = "<img src = '"..imageLocation.."' style = 'width: 80px;'>"
+-- the image nui::// location
+local image = exports['mh-vehicleimages']:GetImage(vehicle_model)
+-- for html menu's
+local html = "<img src = '"..image.."' style = 'width: 80px;'>"
 ```
 
 # LICENSE
